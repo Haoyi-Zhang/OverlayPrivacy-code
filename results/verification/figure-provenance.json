@@ -1,0 +1,43 @@
+{
+  "all_figures_editable_source": true,
+  "dependencies": [
+    {
+      "exists": true,
+      "reference": "paper/figures/oracle-points.dat"
+    },
+    {
+      "exists": true,
+      "reference": "paper/figures/runtime.dat"
+    },
+    {
+      "exists": true,
+      "reference": "artifact/paper-generated/reviewer-metrics.tex"
+    }
+  ],
+  "figure_count": 3,
+  "figures": [
+    {
+      "caption": "Threshold-component witness for the stated three-label example.",
+      "design": "native TikZ; retained unchanged",
+      "editable_source": true,
+      "label": "fig:threshold",
+      "source_tex": "paper/main.tex"
+    },
+    {
+      "caption": "Canonical bound versus exact public-history capacity for all tiny models.",
+      "design": "native PGFPlots from paper/figures/oracle-points.dat; retained unchanged",
+      "editable_source": true,
+      "label": "fig:oracle",
+      "source_tex": "paper/main.tex"
+    },
+    {
+      "caption": "Median CPU cost over five fresh processes per scope.",
+      "design": "native PGFPlots from paper/figures/runtime.dat; retained unchanged",
+      "editable_source": true,
+      "label": "fig:runtime",
+      "source_tex": "paper/main.tex"
+    }
+  ],
+  "interpretation": "All current figure designs are retained; only manuscript text is revised. File checksums are deliberately not used.",
+  "missing_dependencies": []
+}

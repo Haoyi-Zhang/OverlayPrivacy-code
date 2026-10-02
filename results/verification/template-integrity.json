@@ -1,0 +1,18 @@
+{
+  "all_exact": true,
+  "comparison": "Local byte-for-byte comparison against the supplied TEMPLATE.zip; no checksum manifest is retained.",
+  "records": [
+    {
+      "byte_for_byte_match": true,
+      "delivered": "paper/IEEEtran.cls",
+      "name": "IEEEtran.cls",
+      "template_entry": "IEEEtran.cls"
+    },
+    {
+      "byte_for_byte_match": true,
+      "delivered": "paper/IEEEtranS.bst",
+      "name": "IEEEtranS.bst",
+      "template_entry": "IEEEtranS.bst"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checker": "src/checker.py",
+  "dynamic_import_calls": [],
+  "forbidden_scientific_imports": [],
+  "imports": [
+    "argparse",
+    "fractions",
+    "itertools",
+    "json",
+    "pathlib",
+    "re"
+  ],
+  "interpretation": "Static import separation is narrower than independent implementation or formal verification; no checksum is used as validation.",
+  "successful": true
+}
